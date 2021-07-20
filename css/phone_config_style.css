@@ -1,0 +1,18 @@
+body {
+  background-color:azure;;
+}
+.site {
+display: grid;
+grid-template-rows: auto;
+grid-template-columns: repeat(80,1fr);
+}
+.img2 {
+  background-color: black;
+}
+.img1 {
+  background-color: white;
+}
+.img {
+  background-color: #c968f9;
+
+}

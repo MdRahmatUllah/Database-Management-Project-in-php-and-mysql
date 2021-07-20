@@ -1,0 +1,28 @@
+body {
+
+}
+
+.p1 {
+  display: grid;
+  grid-template-columns: repeat(1fr , 8);
+  grid-template-rows: repeat(1fr , 100);
+}
+.nav_section {
+  grid-column: 1/9;
+  grid-row: 1/2;
+  height: 200px;
+}
+.loop_section {
+  height: 400px;
+}
+.side_left {
+  grid-column: 1/2;
+  grid-row: 2/101;
+  background-color: gray;
+}
+.side_right {
+  grid-column: 8/9;
+  grid-row: 2/101;
+  background-color: gray;
+
+}
